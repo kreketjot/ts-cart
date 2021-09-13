@@ -9,6 +9,8 @@ export default class MusicAlbum implements Buyable {
 
   readonly price: number;
 
+  readonly single: boolean;
+
   constructor(
     id: number,
     name: string,
@@ -19,5 +21,6 @@ export default class MusicAlbum implements Buyable {
     this.name = name;
     this.author = author;
     this.price = price;
+    this.single = true;
   }
 }

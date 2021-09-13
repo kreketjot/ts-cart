@@ -8,8 +8,6 @@ console.log(cart.items);
 
 cart.add(new Book(1001, 'War and Piece', 'Leo Tolstoy', 2000, 1225));
 cart.add(new MusicAlbum(1008, 'Meteora', 'Linkin Park', 900));
-const genres = [
-];
 cart.add(new Movie(532, 'Мстители', 50, true, 'The Avengers', 2012, 'США', 'Avengers Assemble!', [
   'фантастика',
   'боевик',
