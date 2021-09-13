@@ -7,7 +7,7 @@
     "watch": "tsc -w",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.ts",
     "test": "jest --coverage",
     "show:dist": "live-server dist"
   },
